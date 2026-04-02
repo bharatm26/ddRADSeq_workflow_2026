@@ -1,0 +1,23 @@
+name: structure
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - plink=1.90
+  - bedtools
+  - numpy=1.24
+  - scipy=1.9
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip:
+    - faststructure==1.0
+    - pyfastx
+
+# Notes:
+# - `faststructure` is installed via pip; it depends on numpy/scipy/scikit-learn.
+# - If you prefer a different PLINK version, edit the `plink` entry (or install `plink2`).

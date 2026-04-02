@@ -1,0 +1,36 @@
+name: env_radseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - bwa=0.7.17
+  - samtools=1.17
+  - bcftools=1.17
+  - vcftools=0.1.16
+  - htslib=1.17
+  - gatk4=4.2.6.1
+  - stacks=2.62
+  - cutadapt=4.4
+  - fastqc=0.12.1
+  - multiqc=1.14
+  - fastp=0.23.4
+  - plink2=2.00a5
+  - r-base=4.2.2
+  - r-essentials=4.2.2
+  - bioconductor-snprelate
+  - bioconductor-gdsfmt
+  - r-vcfr
+  - r-ggplot2
+  - r-dplyr
+  - r-cowplot
+  - r-reshape2
+  - r-ggrepel
+  - r-gridextra
+  - make=4.3
+  - pip
+  - pip:
+    - snakemake==7.18.0
+    - triangulaR
+    - pophelper

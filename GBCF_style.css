@@ -1,0 +1,11 @@
+/*----------LOGO above TOC---------*/
+#TOC::before {
+  content: "";
+  display: block;
+  height: 200px; /* Adjust height as needed */
+  margin: 2em 20px 40px 20px;
+  background-image: url("GenomicsLogo_05_19_12.png"); /* Replace with your image file path */
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
