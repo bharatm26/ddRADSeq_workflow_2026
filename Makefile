@@ -29,7 +29,10 @@ alignment:
 	@echo "Running trimming + alignment steps"
 	bash scripts_GBCF/00_remove_spacers.sh || exit 1
 	bash scripts_GBCF/01_process_radtag_1.sh || exit 1
+	bash scripts_GBCF/01_process_radtag_2.sh || exit 1
+	bash scripts_GBCF/01_process_radtag_3.sh || exit 1
 	bash scripts_GBCF/02_read_fastqc.sh || exit 1
+	bash scripts_GBCF/02_1_read_multiqc_PreTrim.sh || exit 1
 	bash scripts_GBCF/03_read_trimming.sh || exit 1
 	# Run post-trimming QC before alignment
 	bash scripts_GBCF/04_read_fastqc_postTrim.sh || exit 1

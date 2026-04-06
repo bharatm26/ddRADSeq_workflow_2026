@@ -40,7 +40,7 @@ metadata$Sample <- trimws(metadata$Sample)
 
 # Stats Files Paths (for Diversity/Fst sections)
 pi_path         <- "../results/pixy/merged_pi_pi.txt"
-het_path        <- "../results/filtered_vcf/heretozygous_merged.het"
+het_path        <- "../results/filtered_vcf/heterozygous_merged.het"
 fst_spec_path   <- "../results/populations/merged_final.p.fst_summary.tsv"
 
 # Create a population map for triangulaR (Defining 'pure' reference groups)

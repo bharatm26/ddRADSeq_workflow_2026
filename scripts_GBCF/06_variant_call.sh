@@ -10,8 +10,7 @@ conda activate /home/bmishra2/anaconda3/envs/env_radseq
 
 # --- Configuration ---
 THREADS=64
-#genome=/home/bmishra2/Documents/2025/Dev/radseq/RAD_analysis_workflow/blue_mussel/fasta/GCF_963676685.1_xbMytEdul2.2_genomic.fasta
-genome=/home/bmishra2/Documents/2025/Dev/radseq/ddRAD_analysis_workflow/blue_mussel/fasta/GCF_963676685.1_xbMytEdul2.2_genomic.fasta
+genome=/home/bmishra2/Documents/2026/projects/ddRADSeq_workflow_2026/blue_mussel/fasta/GCF_963676685.1_xbMytEdul2.2_genomic.fasta
 
 # Setup directories
 cd ../results

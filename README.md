@@ -1,5 +1,7 @@
 # ddRAD-Seq_workflow
 
+**GBCF SOW: GBCF-BIOINFO-25-004**
+
 Small, reproducible bash workflow for ddRAD-Seq data processing and basic population analyses.
 
 Highlights
