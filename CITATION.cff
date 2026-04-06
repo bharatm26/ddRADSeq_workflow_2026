@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite it as below."
+title: "ddRAD-Seq Workflow"
+abstract: >-
+  A reproducible bash workflow for ddRAD-Seq data processing and
+  population genomic analyses, covering raw FASTQ through spacer
+  removal, demultiplexing, QC, trimming, alignment, variant calling,
+  filtering, and downstream analyses (PCA, admixture, hybrid index).
+type: software
+authors:
+  - family-names: Mishra
+    given-names: Bharat
+    affiliation: "Genomics & Bioinformatics Core Facility, University of Notre Dame"
+license: GPL-3.0
+repository-code: "https://github.com/bmishra2/ddRADSeq_workflow_2026"
+date-released: "2026-04-06"
+keywords:
+  - ddRAD-Seq
+  - population genomics
+  - bioinformatics
+  - SNP calling
+  - admixture
+  - hybrid detection

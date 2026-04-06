@@ -136,7 +136,15 @@ results/              # all outputs, organised by step
 - On failure, inspect console output and the corresponding `results/` directory for partial files.
 - Scripts use absolute conda paths — update the `conda activate` lines if your environment paths differ.
 
-## Where to read more
-- Quick start: `GETTING_STARTED.md`
-- Scripts: `scripts_GBCF/`
-- Environment YAMLs: `environment.yml`, `environment-pixy.yml`, `environment-structure.yml`
+## Citation
+
+If you use this workflow, please cite it:
+
+> Mishra, B. (2026). *ddRAD-Seq Workflow* [Software]. https://github.com/bmishra2/ddRADSeq_workflow_2026
+
+A machine-readable citation file is included — see `CITATION.cff`.
+
+## References
+
+- **Stacks**: Catchen J. et al. (2013). Stacks: an analysis tool set for population genomics. *Molecular Ecology*, 22(11), 3124–3140. doi:[10.1111/mec.12354](https://doi.org/10.1111/mec.12354)
+- **RAD_analysis_workflow**: Scheben A. RAD Analysis Workflow. https://github.com/ascheben/RAD_analysis_workflow
