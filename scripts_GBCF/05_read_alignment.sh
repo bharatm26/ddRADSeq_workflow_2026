@@ -34,4 +34,5 @@ for fq1 in ../results/trimming/*_1.trim.fq.gz
     bwa mem $genome -t $THREADS -R "$rg_header" $fq1 $fq2 | \
     samtools sort -@ $THREADS -o $sorted_bam -
     samtools index $sorted_bam
+    samtools stats $sorted_bam > ../results/bam/${base}.stats.txt
     done

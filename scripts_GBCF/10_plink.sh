@@ -13,7 +13,7 @@ mkdir -p "$OUT_DIR"
 cd "$OUT_DIR"
 
 echo "-------------------------------------------------------"
-echo "Step 1: Converting VCF to PLINK BED format"
+echo "Converting VCF to PLINK BED format"
 echo "-------------------------------------------------------"
 
 plink2 --vcf "$INPUT_VCF" \
